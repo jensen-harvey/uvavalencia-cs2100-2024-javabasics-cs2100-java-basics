@@ -1,12 +1,6 @@
 
 package tree;
 import java.lang.Math;
-/**
- * Self-balancing AVL Tree
- * @author CS 2100 Team
- *
- * @param <T>
- */
 
 public class AVLTree<T extends Comparable<T>> extends BinarySearchTree<T>{
 

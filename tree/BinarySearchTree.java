@@ -7,12 +7,7 @@ public class BinarySearchTree<T extends Comparable<T>> extends BinaryTree<T> imp
         this.root = insert(data, root);
     }
 
-    /**
-     * Helper method for inserting recursively
-     * @param data
-     * @param curNode
-     * @return a reference to the new root of the subtree
-     */
+   
     protected TreeNode<T> insert(T data, TreeNode<T> curNode) {
         // method used for the insertion in a tree, takes in data and the current node
         if (curNode == null) {

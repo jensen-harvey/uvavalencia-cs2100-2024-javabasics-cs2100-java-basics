@@ -9,11 +9,7 @@ public class BinaryTree<T> {
 
     protected TreeNode<T> root = null;
 
-    /* Tree Traversal methods */
-
-    //HINT for three traversal methods: you can call toString() on the node's
-    //     data when you are executing the "root" command on a given node
-    //     (e.g. curNode.data.toString() + " ";) // Note the space added at the end
+    
 
     public String getInOrder() {
         return getInOrder(root); // call getInOrder starting at the root!

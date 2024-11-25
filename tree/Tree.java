@@ -1,10 +1,6 @@
 package tree;
 
-/**
- * Generic interface for a tree data structure
- * @author CS 2100 Team
- *
- */
+
 public interface Tree<T extends Comparable<T>> {
 
     /**
